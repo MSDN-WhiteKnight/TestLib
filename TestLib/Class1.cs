@@ -40,7 +40,7 @@ namespace TestLib
 
         public static double CalcDiv(double x, double y)
         {
-            if (y == 0.0) throw new DivideByZeroException();
+            //if (y == 0.0) throw new DivideByZeroException();
             return x / y;
         }
 
